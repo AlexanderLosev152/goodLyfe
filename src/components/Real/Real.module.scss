@@ -1,0 +1,15 @@
+@import "../../App.scss";
+
+.wrapperTitle {
+  h2 {
+    font-weight: 600;
+    @include text-clamp(26, 48);
+    line-height: 119%;
+    color: var(--grey-copy);
+    max-width: 415px;
+    padding-bottom: 12px;
+  }
+  p {
+    @include text-clamp(9, 18);
+  }
+}

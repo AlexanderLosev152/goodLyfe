@@ -1,0 +1,17 @@
+@import "./styles/normalize";
+@import "./styles/reset";
+
+@import "./styles/reset";
+@import "./styles/font";
+@import "./styles/media";
+@import "./styles/mixin";
+@import "./styles/var";
+
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+}
+
+p {
+  @include text-clamp(14, 16);
+}
